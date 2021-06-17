@@ -1,0 +1,102 @@
+table {
+    width: 100%;
+    border-spacing: 5px;
+}
+
+table,
+th,
+td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+.img-tb {
+    width: 20%;
+}
+
+tr:nth-child(even) {
+    background-color: #d2691e;
+}
+
+tr:nth-child(odd) {
+    background-color: #9fdb9f;
+}
+
+th {
+    background-color: #ffd900;
+}
+
+tr:hover {
+    background-color: #808080;
+}
+
+#container {
+    background-color: #ffe4c4;
+}
+
+input[type=text] {
+    display: block;
+    width: 100%;
+}
+input:required + [oninvalid] {
+    color: #ff0000;
+}
+input{
+    width: 100px;
+}
+input:required:valid {
+    border: 2px solid #009900;
+}
+input:required:not(:placeholder-shown):invalid {
+    border: 2px solid #c9001b;
+}
+
+
+.info {
+    margin: 15px 0;
+    font-size: 1.5em;
+
+}
+
+.gen {
+    margin: 15px 0;
+
+}
+
+.info input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+
+}
+
+.gen label {
+
+    position: absolute;
+}
+
+.gen input {
+    margin: 0 80px;
+}
+
+
+
+.endereco select {
+    padding: 5px 2px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
